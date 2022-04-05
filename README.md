@@ -1,4 +1,4 @@
-# [REMAP](https://gitlab.cci.drexel.edu/ed584/cs-375-project)
+# [REMAP](https://github.com/jaypatel815/REMAP)
 A web-based game that is inspired by the popular game Wordle (and 
 Squabble).
 
