@@ -1,0 +1,26 @@
+{
+  "name": "cs-375-project",
+  "version": "1.0.0",
+  "description": "A web-based game that is inspired by the popular game Wordle (and  Squabble).",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.cci.drexel.edu/ed584/cs-375-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "jquery": "^3.6.0",
+    "lodash": "^4.17.21",
+    "pg": "^8.7.3",
+    "socket.io": "^4.4.1",
+    "sockets": "^0.4.2",
+    "uuid": "^8.3.2"
+  }
+}
