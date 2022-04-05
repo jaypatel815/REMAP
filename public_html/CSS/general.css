@@ -1,0 +1,81 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+h1 {
+    color: white;
+    font-size: 80px;
+    font-family: serif;
+    text-align: center;
+    padding-top: 5%;
+}
+
+span, #text {
+    color: white;
+    font-family: serif;
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+div.container {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    color: white;
+    background-color: black;
+    border: solid white;
+    transition-duration: .33s;
+}
+
+button:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+button:disabled,
+button[disabled]{
+    color: white;
+    background-color: black;
+    border: solid white;
+}
+
+#newGameButton, #joinGameButton {
+    width: 245px; 
+    height: 80px; 
+    margin-top: 10px;
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+#gameCodeInput {
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    font-family: serif;
+    text-align: center;
+    text-transform: uppercase; 
+    width: 245px;
+    height: 60px;
+}
+
+#gameCodeInput::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 20px;
+    font-family: serif;
+    text-align: center;
+}

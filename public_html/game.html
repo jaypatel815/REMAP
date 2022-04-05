@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<link href="/CSS/general.css" rel="stylesheet">
+<link href="/CSS/animations.css" rel="stylesheet">
+<link href="/CSS/game.css" rel="stylesheet">
+
+<head>
+    <meta charset="UTF-8">
+    <title>REMAP</title>
+</head>
+
+<body>
+    <h1 style="padding-top: 2%;">REMAP</h1>
+
+    <div id="my-pop" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2 id="pop-state"></h2>
+            </div>
+            <div id="pop-score" class="modal-body"></div>
+            <div class="modal-footer">
+                <button id="yes-button" style="width:5rem; height:2rem; font-size:20px;">Yes</button>
+                <button id="no-button" style="width:5rem; height:2rem; font-size:20px;">No</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="align-items: center;">
+        <div>
+            <div id="gameboard"></div>
+            <br>
+            <span id="p-score">SCORE: 300</span>
+        </div>
+
+        <div style="min-width: 195px; width: 195px;">
+            <table id="opponent-gameboard" style="display: inline-block;"></table>
+            <span id="o-score">OPPONENT'S SCORE: 300</span>
+        </div>
+    </div>
+
+    <div id="keyboard"></div>
+    
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/JS/game.js"></script>
+</body>
+</html>
